@@ -50,6 +50,7 @@ del my_friends[0:6]
 del my_friends[3:9]
 
 print(my_friends)
-        
+
+print(my_friendcopy)
             
 # мені не надіслали на цей час ніхто список з учнів можливо це моя вина але все що потрібно було я виконав

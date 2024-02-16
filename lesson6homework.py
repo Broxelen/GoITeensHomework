@@ -1,17 +1,17 @@
 import copy
 
-my_friends = []
+my_friends = [[["Михайло"], ["13"], ["Favorite subject: Physical Education"]], [["Іван"], ["14"], ["Favorite subject: Art"]] ]
 
 
-friendone = [["Михайло"], ["13 years"], ["Favorite subject: Physical Education"]]
+friendone = [["Михайло"], ["13"], ["Favorite subject: Physical Education"]]
 
-friendtwo = [["Іван"], ["14 years"], ["Favorite subject: Art"]]
+friendtwo = [["Іван"], ["14"], ["Favorite subject: Art"]]
 
-friendthree = [["Микола"], ["12 years"], ["Favorite subject: Physical Education"]]
+friendthree = [["Микола"], ["12"], ["Favorite subject: Physical Education"]]
 
-friendfour = [["Михайло"], ["13 years"], ["Favorite subject: Physical Education"]]
+friendfour = [["Михайло"], ["13"], ["Favorite subject: Physical Education"]]
 
-friendfive = [["Артем"], ["13 years"], ["Favorite subject: Art"]]
+friendfive = [["Артем"], ["13"], ["Favorite subject: Art"]]
 for i in friendone:
             my_friends.append(i)
             
@@ -33,15 +33,15 @@ for i in friendfive:
 
 my_friendcopy = my_friends.copy()
             
-my_friends[1] = ["14 years"]
+my_friends[1] = ["14"]
 
-my_friends[4] = ["15 years"]
+my_friends[4] = ["15"]
 
-my_friends[7] = ["13 years"]
+my_friends[7] = ["13"]
 
-my_friends[10] = ["14 years"]
+my_friends[10] = ["14"]
 
-my_friends[13] = ["14 years"]
+my_friends[13] = ["14"]
 
 
 
